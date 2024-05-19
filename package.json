@@ -2,9 +2,9 @@
   "name": "blog",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
-    "start": "nodemon --inspect ./index.js",
+    "start": "nodemon --inspect src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -22,10 +22,15 @@
     "url": "https://github.com/tientho110/F8_nodejs_blog/issues"
   },
   "homepage": "https://github.com/tientho110/F8_nodejs_blog#readme",
+  "type": "module",
   "dependencies": {
-    "express": "^4.19.2"
+    "express": "^4.19.2",
+    "express-handlebars": "^7.1.2",
+    "path": "^0.12.7"
   },
   "devDependencies": {
+    "morgan": "^1.10.0",
+    "node-fetch": "^3.3.2",
     "nodemon": "^3.1.0"
   }
 }
