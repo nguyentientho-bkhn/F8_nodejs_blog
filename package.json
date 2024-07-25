@@ -23,9 +23,9 @@
     "url": "https://github.com/tientho110/F8_nodejs_blog/issues"
   },
   "homepage": "https://github.com/tientho110/F8_nodejs_blog#readme",
-  "type": "module",
+  "type": "commonjs",
   "dependencies": {
-    "express": "^4.19.2",
+    "express": "^4.17.1",
     "express-handlebars": "^7.1.2",
     "path": "^0.12.7"
   },
