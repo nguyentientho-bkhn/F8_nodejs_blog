@@ -1,4 +1,12 @@
 // import path from 'path';
+// import express from 'express';
+// import morgan from 'morgan';
+// import { engine } from 'express-handlebars';
+// import { fileURLToPath } from 'url';
+// import { dirname } from 'path';
+
+// import { route } from './routes/index.js';
+// import route from './routes/index.js';
 
 const path = require('path');
 const express = require('express');
@@ -10,6 +18,9 @@ const route = require('./routes');
 
 const app = express();
 const port = 3000;
+
+// const __filename = fileURLToPath(import.meta.url);
+// const __dirname = dirname(__filename);
 
 // const route = require('./routes');
 
